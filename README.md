@@ -1,1 +1,2 @@
-<img src="./media/JSAdvanced.png" width="682" height="312" />
+<img src="./media/JSAdvanced.png" width="886" height="405" />
+s
