@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Extract Parenthesis</title>
+</head>
+<body>
+<p id="test" onclick="extract('test')">This is super silly(and something else) test!</p>
+<script>
+    function extract(id) {
+        let result = [];
+        let elText = document.getElementById(id).textContent;
+        let regex = /\((.+?)\)/g;
+        let match = regex.exec(elText);
+
+        while(match)
+        {
+            result.push(match[1]);
+            match = regex.exec(elText);
+        }
+
+        return result.join('; ');
+    }
+</script>
+</body>
+</html>
