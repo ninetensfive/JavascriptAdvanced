@@ -1,8 +1,6 @@
 let expect = require('chai').expect;
 let mathEnforcer = require('../mathEnforcer');
 
-
-
 describe("Tests for mathEnforcer", function () {
    describe("Valid tests", function () {
         it("Should return 5 for addFive(0)", function () {

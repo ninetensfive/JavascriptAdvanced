@@ -12,5 +12,6 @@
     <orderEntry type="library" name="@types/mocha" level="application" />
     <orderEntry type="library" name="@types/node" level="application" />
     <orderEntry type="library" name="jQuery-2.0.0" level="application" />
+    <orderEntry type="library" name="@types/jsdom" level="application" />
   </component>
 </module>
